@@ -1,4 +1,10 @@
 .venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.DS_Store
+outputs/
+PHASE_01/**/outputs/.venv/
 */.venv/
 **/__pycache__/
 **/*.pyc
