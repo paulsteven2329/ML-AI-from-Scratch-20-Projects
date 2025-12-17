@@ -1,0 +1,40 @@
+# PHASE 2: Intermediate Machine Learning - Dependencies
+# This file contains all dependencies needed for Phase 2 projects
+
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Advanced Hyperparameter Optimization
+optuna>=3.4.0
+
+# Feature Engineering
+category_encoders>=2.6.0
+
+# Optional: Enhanced Functionality
+# joblib>=1.3.0              # For model persistence
+# plotly>=5.17.0             # For interactive visualizations  
+# shap>=0.42.0               # For model explainability
+# feature_engine>=1.6.0      # For advanced feature engineering
+
+# Installation Instructions:
+# pip install -r requirements.txt
+#
+# For development environment:
+# pip install -r requirements.txt
+# pip install jupyter notebook ipython
+#
+# For specific projects, you can also install individual requirements:
+# pip install -r ensemble_learning/requirements.txt
+# pip install -r feature_engineering_masterclass/requirements.txt
+# pip install -r hyperparameter_tuning/requirements.txt
+# pip install -r customer_segmentation/requirements.txt
