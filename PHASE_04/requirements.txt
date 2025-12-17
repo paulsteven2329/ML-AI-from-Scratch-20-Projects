@@ -1,0 +1,95 @@
+# PHASE 4: Advanced NLP & Generative AI - Requirements
+
+# Core ML/DL frameworks
+torch>=2.0.0                   # PyTorch for deep learning and transformer implementation
+torchvision>=0.15.0           # Computer vision utilities
+transformers>=4.35.0           # HuggingFace transformers library
+datasets>=2.14.0               # Dataset handling and processing
+
+# Generative AI and LLM integration
+openai>=1.0.0                  # OpenAI API for GPT integration
+langchain>=0.0.350             # Framework for building LLM applications
+langsmith>=0.0.70              # LangChain monitoring and debugging
+
+# Parameter-efficient fine-tuning
+peft>=0.6.0                    # Parameter Efficient Fine-Tuning (LoRA, etc.)
+bitsandbytes>=0.41.0           # Quantization for efficient training
+accelerate>=0.24.0             # Distributed training and optimization
+
+# Vector databases and embeddings
+sentence-transformers>=2.2.2   # Semantic embeddings and similarity
+faiss-cpu>=1.7.4               # Fast similarity search (use faiss-gpu for GPU)
+chromadb>=0.4.0                # Vector database alternative
+pinecone-client>=2.2.4         # Managed vector database (optional)
+
+# Document processing for RAG
+PyPDF2>=3.0.1                  # PDF text extraction
+pdfplumber>=0.9.0              # Better PDF processing
+python-docx>=0.8.11           # Word document processing
+beautifulsoup4>=4.12.0         # HTML/XML parsing
+
+# Data processing and analysis
+numpy>=1.24.0                  # Numerical computations
+pandas>=2.0.0                  # Data manipulation and analysis
+matplotlib>=3.7.0              # Plotting and visualization
+seaborn>=0.12.0                # Statistical visualization
+plotly>=5.17.0                 # Interactive visualizations
+
+# Scientific computing
+scipy>=1.10.0                  # Scientific computing utilities
+scikit-learn>=1.3.0            # Machine learning algorithms and metrics
+
+# Experiment tracking and monitoring
+wandb>=0.16.0                  # Weights & Biases experiment tracking
+tensorboard>=2.14.0            # TensorBoard for monitoring
+
+# Text processing and evaluation
+nltk>=3.8.1                    # Natural language processing toolkit
+spacy>=3.7.0                   # Advanced NLP processing
+rouge-score>=0.1.2             # Text summarization evaluation
+bleu>=0.2.0                    # Translation quality metrics
+sacrebleu>=2.3.1               # Better BLEU implementation
+
+# Web frameworks for deployment
+flask>=2.3.0                   # Lightweight web framework
+fastapi>=0.104.0               # High-performance API framework
+uvicorn>=0.24.0                # ASGI server for FastAPI
+gunicorn>=21.0.0               # WSGI HTTP server
+streamlit>=1.28.0              # Rapid web app development
+
+# Async and concurrency
+aiohttp>=3.9.0                 # Async HTTP client/server
+asyncio                        # Built-in async programming
+concurrent.futures             # Built-in concurrent execution
+
+# Utility libraries
+requests>=2.31.0               # HTTP library
+python-dotenv>=1.0.0           # Environment variable management
+tqdm>=4.66.0                   # Progress bars
+click>=8.1.0                   # Command-line interface creation
+pydantic>=2.5.0                # Data validation and settings management
+
+# Development and testing
+pytest>=7.4.0                  # Testing framework
+pytest-asyncio>=0.23.0         # Async testing support
+black>=23.0.0                  # Code formatting
+flake8>=6.0.0                   # Code linting
+mypy>=1.7.0                    # Static type checking
+jupyter>=1.0.0                 # Interactive development
+jupyterlab>=4.0.0              # Advanced Jupyter interface
+
+# Optional advanced libraries (install as needed)
+# deepspeed>=0.10.0             # Microsoft's training optimization
+# flash-attn>=2.3.0             # Flash attention for efficiency
+# xformers>=0.0.22              # Memory efficient transformers
+# apex                          # NVIDIA's mixed precision (install from source)
+
+# Cloud and deployment (optional)
+# boto3>=1.34.0                 # AWS SDK
+# google-cloud-aiplatform>=1.38.0  # Google Cloud AI Platform
+# azure-ai-ml>=1.12.0           # Azure Machine Learning
+
+# Database connectors (optional)
+# psycopg2-binary>=2.9.7        # PostgreSQL adapter
+# pymongo>=4.6.0                # MongoDB driver
+# redis>=5.0.0                  # Redis client
