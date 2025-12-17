@@ -1,0 +1,53 @@
+# Phase 3: Deep Learning Requirements
+# Install all dependencies for comprehensive deep learning projects
+
+# Core numerical and data processing libraries
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
+
+# Traditional machine learning
+scikit-learn>=1.0.0
+
+# Deep learning frameworks
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Computer vision
+opencv-python>=4.5.0
+Pillow>=8.3.0
+
+# Natural Language Processing
+nltk>=3.7
+# Note: NLTK data will be downloaded automatically by the scripts
+
+# Optional advanced features (comment out if not needed)
+# transformers>=4.15.0  # For advanced NLP with pre-trained models
+# torch>=1.10.0         # PyTorch backend for transformers
+# ultralytics>=8.0.0    # For YOLO object detection models
+
+# Visualization and interaction
+plotly>=5.0.0
+ipywidgets>=7.6.0
+
+# Development and debugging
+jupyter>=1.0.0
+notebook>=6.4.0
+
+# Utilities
+tqdm>=4.62.0
+requests>=2.26.0
+
+# For advanced installations (optional):
+# If you want the full transformer experience:
+# pip install transformers torch ultralytics
+
+# For GPU support (if you have CUDA-compatible GPU):
+# pip install tensorflow-gpu
+
+# Installation notes:
+# 1. Create virtual environment first: python -m venv venv
+# 2. Activate: source venv/bin/activate (Linux/Mac) or venv\Scripts\activate (Windows)
+# 3. Install: pip install -r requirements.txt
+# 4. For M1/M2 Macs, you may need: pip install tensorflow-macos tensorflow-metal
